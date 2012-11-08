@@ -1,8 +1,10 @@
+html { height: 100%; width: 100%; }
 body {
   background: #929292;
   font-family: "Helvetica Neue";
   margin: auto;
-  width: 1280px;
+  height: 100%;
+  width: 100%;
 }
 
 a {
@@ -23,9 +25,9 @@ a:not(:hover) {
   -o-box-sizing: border-box;
   display: none;
   font-size: 48px;
-  height: 800px;
-  padding: 160px 80px;
-  width: 1280px;
+  height: 100%;
+  padding: 5%;
+  width: 100%;
   -webkit-transform: translate3d(0,0,0);
 }
 
@@ -42,11 +44,11 @@ a:not(:hover) {
 @media
 screen and (max-device-width: 1024px) {
   body {
-    width: 1200px;
+    /*width: 1200px;*/
   }
 
   .stack {
-    margin: 40px 0;
+    /*margin: 40px 0;*/
   }
 
   .stack {
